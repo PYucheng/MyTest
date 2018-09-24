@@ -7,7 +7,7 @@ public class DesUtil {
   this.bytekey = strKey.getBytes();
  }
 
- // 声明常量字节数组
+ // 声明常量字节数组1
  private static final int[] IP = { 58, 50, 42, 34, 26, 18, 10, 2, 60, 52,
    44, 36, 28, 20, 12, 4, 62, 54, 46, 38, 30, 22, 14, 6, 64, 56, 48,
    40, 32, 24, 16, 8, 57, 49, 41, 33, 25, 17, 9, 1, 59, 51, 43, 35,
@@ -381,7 +381,7 @@ public class DesUtil {
 
  public static void main(String[] args) {
 	 Scanner sc = new Scanner(System.in);
-	 System.out.println("please input a  number");  
+	 System.out.println("please input a  number");
   String key = sc.next();
   Scanner sc1 = new Scanner(System.in);
 	 System.out.println("please input a string");
